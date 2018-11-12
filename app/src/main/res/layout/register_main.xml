@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1DE9B6"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="134dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/Usernew"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:hint="user"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/Clavenew"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_redondo"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="REGISTRAR" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:text="             Al registrarse acepta todas nuestras
+        Condiciones y nuestra Politica de privacidad"
+        android:textColor="@android:color/black" />
+</LinearLayout>
