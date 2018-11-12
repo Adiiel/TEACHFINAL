@@ -57,6 +57,16 @@
         android:paddingLeft="15dip"
         android:paddingRight="15dip"
         android:text="REGISTRAR" />
+    <TextView
+        android:id="@+id/txtnew"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="100dp"
+        android:onClick="onClick"
+        android:text="Regresar"
+        android:textSize="20sp" />
 
     <TextView
         android:layout_width="match_parent"
