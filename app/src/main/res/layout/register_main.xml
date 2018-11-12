@@ -9,7 +9,7 @@
     tools:context=".RegisterActivity">
 
     <ImageView
-        android:layout_width="220dp"
+        android:layout_width="229dp"
         android:layout_height="134dp"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="40dp"
