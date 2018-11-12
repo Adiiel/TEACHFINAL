@@ -57,21 +57,22 @@
         android:paddingLeft="15dip"
         android:paddingRight="15dip"
         android:text="REGISTRAR" />
+
     <TextView
         android:id="@+id/txtnew"
         android:layout_width="278dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:paddingLeft="100dp"
+        android:layout_marginTop="15dp"
         android:onClick="onClick"
+        android:paddingLeft="100dp"
         android:text="Regresar"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:text="             Al registrarse acepta todas nuestras
         Condiciones y nuestra Politica de privacidad"
         android:textColor="@android:color/black" />
