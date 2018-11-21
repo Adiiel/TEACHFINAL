@@ -21,7 +21,12 @@ public class LoginActivity extends AppCompatActivity {
         edtclv = (EditText) findViewById(R.id.Clave);
         btningr = (Button) findViewById(R.id.btningr);
         register = (TextView) findViewById(R.id.txtRH);
+        btningr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+            }
+        });
     }
 
     public void onClick(View v) {

@@ -14,13 +14,15 @@
         android:layout_height="183dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="13dp"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logo"
+        android:layout_marginStart="40dp"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Usuario:"
+        android:text="@string/string_usuario"
         android:textColor="@android:color/black" />
 
     <EditText
@@ -28,12 +30,15 @@
         android:layout_width="match_parent"
         android:layout_height="41dp"
         android:drawableLeft="@drawable/ic_action_user"
-        tools:background="@android:color/transparent" />
+        tools:background="@android:color/transparent"
+        android:inputType=""
+        android:drawableStart="@drawable/ic_action_user"
+        android:autofillHints="" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clave:"
+        android:text="@string/clave"
         android:textColor="@android:color/black" />
 
     <EditText
@@ -42,14 +47,17 @@
         android:layout_height="46dp"
         android:inputType="textPassword"
         android:drawableLeft="@drawable/ic_action_pass"
-        tools:background="@android:color/transparent" />
+        tools:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_action_pass"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btningr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Ingresar"
+        android:text="@string/ingresar"
+        android:onClick="onClick"
         android:background="@drawable/btn_redondo"
         />
 
@@ -61,7 +69,9 @@
         android:layout_marginTop="10dp"
         android:paddingLeft="100dp"
         android:onClick="onClick"
-        android:text="Nuevo Registro"
-        android:textSize="10sp" />
+        android:text="@string/nuevo_registro"
+        android:textSize="10sp"
+        android:layout_marginStart="25dp"
+        android:paddingStart="100dp" />
 
 </LinearLayout>
