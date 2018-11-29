@@ -13,7 +13,7 @@ public class LOGIN extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstancestate) {
-        return inflater.inflate(R.layout.activity_logfrag, container, false);
+        return inflater.inflate(R.layout.activity_login, container, false);
 
     }
 }

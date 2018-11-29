@@ -24,7 +24,6 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".LOGIN" />
         <activity android:name=".LOGfrag"></activity>
     </application>
 
