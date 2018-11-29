@@ -21,8 +21,26 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Email"
-        android:drawableLeft="@drawable/ic_action_email"
+        android:hint="Nombres"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black" />
+    <EditText
+        android:id="@+id/apelli"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Apellidos"
+        android:drawableLeft="@drawable/ic_action_apellido"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black" />
+    <EditText
+        android:id="@+id/telf"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Telefono"
+        android:drawableLeft="@drawable/ic_action_telefono"
         android:inputType="textEmailAddress"
         android:textColorHint="@android:color/black" />
 
