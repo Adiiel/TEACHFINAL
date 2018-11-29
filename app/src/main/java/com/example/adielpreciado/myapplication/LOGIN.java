@@ -1,13 +1,19 @@
 package com.example.adielpreciado.myapplication;
 
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
-public class LOGIN extends AppCompatActivity {
+public class LOGIN extends Fragment {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstancestate) {
+        return inflater.inflate(R.layout.activity_logfrag, container, false);
+
     }
 }
